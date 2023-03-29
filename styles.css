@@ -37,3 +37,12 @@ hr{
     color: var(--primary-color);
     border:1px solid var(--primary-color);
 }
+
+.list-non-bulleted{
+    list-style: none;
+}
+
+.list-items-in-line{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
