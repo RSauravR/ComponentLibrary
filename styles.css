@@ -42,7 +42,30 @@ hr{
     list-style: none;
 }
 
-.list-items-in-line{
+.in-line{
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0rem 0rem 0rem 0.5rem;
+    padding: 1rem;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .nav-pill{
+    text-align: right;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+}
+
+.navigation .link-active{
+    font-weight: bold;
 }
