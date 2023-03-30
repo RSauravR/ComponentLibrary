@@ -1,90 +1,104 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-:root{
+:root {
     --primary-color: #34d399;
-    --dark-grey-color:#6b7280;
+    --dark-grey-color: #6b7280;
+    --off-white-color: #f1f5f9;
 }
 
-body{
-    font-family: 'Montserrat', sans-serif; 
-} 
-
-hr{
-    margin:2rem 0rem;
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
-.container{
+hr {
+    margin: 2rem 0rem;
+}
+
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.container-center{
+
+.container-center {
     max-width: 600px;
-    margin:auto;
+    margin: auto;
 }
 
-.link{
+.link {
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
-.link-primary{
-    background-color:var(--primary-color);
-    border-radius:0.5rem;
-    color:white;
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
 }
 
-.link-secondary{
-    border-radius:0.5rem;
+.link-secondary {
+    border-radius: 0.5rem;
     color: var(--primary-color);
-    border:1px solid var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
 
-.list-non-bulleted{
+.list-non-bulleted {
     list-style: none;
 }
 
-.in-line{
+.in-line {
     display: inline;
     padding: 0rem 0.5rem;
 }
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
     color: white;
     border-radius: 0rem 0rem 0rem 0.5rem;
     padding: 1rem;
 }
 
-.navigation .link{
+.navigation .link {
     color: white;
 }
 
-.navigation .nav-pill{
+.navigation .nav-pill {
     text-align: right;
 }
 
-.navigation .nav-brand{
+.navigation .nav-brand {
     font-weight: bold;
 }
 
-.navigation .link-active{
+.navigation .link-active {
     font-weight: bold;
 }
 
-.hero{
+.hero {
     padding: 1rem;
 }
 
-.hero .hero-img{
+.hero .hero-img {
     margin: auto;
-    display:block;
+    display: block;
     max-width: 350px;
 }
 
-.hero .hero-heading{
-    color:var(--dark-grey-color) ;
+.hero .hero-heading {
+    color: var(--dark-grey-color);
 }
 
-.hero .hero-heading .heading-inverted{
+.hero .hero-heading .heading-inverted {
     color: var(--primary-color);
+}
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white-color);
 }
