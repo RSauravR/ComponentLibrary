@@ -125,3 +125,7 @@ hr {
     font-weight: bold;
     font-size: large;
 }
+
+.spacing{
+    padding: 0rem 1rem;
+}
